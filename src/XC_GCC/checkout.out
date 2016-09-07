@@ -81781,22 +81781,25 @@ zlib/zutil.c
 zlib/zutil.h
 project-name: XC16 GCC
 repository:   /Users/cawilkie/.fossil_clone//XC_GCC.fsl
-local-root:   /Users/cawilkie/dev/builds/build_20141219/src/XC_GCC/
+local-root:   /Users/cawilkie/dev/builds/build_20150630/src/XC_GCC/
 project-code: 8d44fcc88f560d1a54501ec642262650ef904476
-checkout:     dc88258114f46518d09d7c9b35623030582856a7 2014-12-12 17:32:38 UTC
-parent:       5e8c3ab0ebfc7dac97a498cb3f3311e1810ef2d8 2014-12-10 20:30:04 UTC
-tags:         XC16_v1_24_release_branch, XC16_v1_24_RC2_released
-comment:      named sections should not cause section flag conflicts (user:
+checkout:     371bac14e00d81518ad0512dcddf16363a022122 2015-06-26 15:26:13 UTC
+parent:       5d86ceaa83631542c593a2785f470f1d983efc14 2015-06-18 21:53:11 UTC
+tags:         XC16_v1_25_release_branch
+comment:      Fix for xc16-837 CC not properly set on these operations (user:
               cawilkie)
 Autosync:  http://cawilkie@chn-vm-tinypm/repos.cgi/XC_GCC
                 Bytes      Cards  Artifacts     Deltas
 Sent:             130          1          0          0
-waiting for server...processed: 3%         processed: 7%         processed: 11%         processed: 14%         processed: 18%         processed: 22%         processed: 26%         processed: 29%         processed: 33%         processed: 37%         processed: 41%         processed: 44%         processed: 48%         processed: 52%         processed: 56%         processed: 59%         processed: 63%         processed: 67%         processed: 71%         processed: 74%         processed: 78%         processed: 82%         processed: 86%         processed: 89%         processed: 93%         processed: 97%         /Users/cawilkie/fossil_bin/fossil: *** time skew *** server is fast by 12.4 seconds
-Received:        1228         27          0          0
-Total network traffic: 360 bytes sent, 915 bytes received
+waiting for server...processed: 1%         processed: 3%         processed: 4%         processed: 6%         processed: 7%         processed: 9%         processed: 11%         processed: 12%         processed: 14%         processed: 15%         processed: 17%         processed: 19%         processed: 20%         processed: 22%         processed: 23%         processed: 25%         processed: 27%         processed: 28%         processed: 30%         processed: 31%         processed: 33%         processed: 35%         processed: 36%         processed: 38%         processed: 39%         processed: 41%         processed: 43%         processed: 44%         processed: 46%         processed: 47%         processed: 49%         processed: 51%         processed: 52%         processed: 54%         processed: 55%         processed: 57%         processed: 59%         processed: 60%         processed: 62%         processed: 63%         processed: 65%         processed: 66%         processed: 68%         processed: 70%         processed: 71%         processed: 73%         processed: 74%         processed: 76%         processed: 78%         processed: 79%         processed: 81%         processed: 82%         processed: 84%         processed: 86%         processed: 87%         processed: 89%         processed: 90%         processed: 92%         processed: 94%         processed: 95%         processed: 97%         processed: 98%         Received:        2884         63          0          0
+Sent:             365          6          0          0
+waiting for server...processed: 2%         processed: 9%         processed: 19%         processed: 30%         processed: 33%         processed: 35%         processed: 36%         processed: 37%         processed: 38%         processed: 39%         processed: 40%         processed: 41%         processed: 42%         processed: 43%         processed: 44%         processed: 45%         processed: 46%         processed: 47%         processed: 49%         processed: 50%         processed: 51%         processed: 52%         processed: 53%         processed: 54%         processed: 55%         processed: 56%         processed: 57%         processed: 58%         processed: 59%         processed: 60%         processed: 61%         processed: 62%         processed: 63%         processed: 64%         processed: 65%         processed: 66%         processed: 67%         processed: 68%         processed: 69%         processed: 71%         processed: 72%         processed: 73%         processed: 74%         processed: 75%         processed: 76%         processed: 77%         processed: 78%         processed: 79%         processed: 80%         processed: 81%         processed: 82%         processed: 83%         processed: 84%         processed: 85%         processed: 86%         processed: 87%         processed: 88%         processed: 89%         processed: 90%         processed: 91%         processed: 92%         processed: 94%         processed: 95%         processed: 96%         processed: 97%         processed: 98%         processed: 99%         Received:        4395         68          0          5
+Total network traffic: 842 bytes sent, 4369 bytes received
+UPDATE gcc/gcc/config/pic30/pic30.c
+UPDATE gcc/gcc/config/pic30/pic30.md
 -------------------------------------------------------------------------------
-checkout:     dc88258114f46518d09d7c9b35623030582856a7 2014-12-12 17:32:38 UTC
-tags:         XC16_v1_24_release_branch, XC16_v1_24_RC2_released
-comment:      named sections should not cause section flag conflicts (user:
-              cawilkie)
-changes:      None. Already up-to-date
+updated-to:   2b01e2b4036ab4728025393f0e53555f5ebaae08 2015-06-30 17:26:58 UTC
+tags:         XC16_v1_25_release_branch
+comment:      Get the mode before finding mode size. (user: ravi)
+changes:      2 files modified.
+"fossil undo" is available to undo changes to the working checkout.
