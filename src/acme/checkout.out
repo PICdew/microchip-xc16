@@ -10439,11 +10439,6 @@ ld/testsuite/ld-pic30-elf32/unit-tests/lkr036/go
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr036/info.txt
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr036/t1.s
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr036/t2.s
-ld/testsuite/ld-pic30-elf32/unit-tests/lkr037/expect.out
-ld/testsuite/ld-pic30-elf32/unit-tests/lkr037/go
-ld/testsuite/ld-pic30-elf32/unit-tests/lkr037/info.txt
-ld/testsuite/ld-pic30-elf32/unit-tests/lkr037/t1.s
-ld/testsuite/ld-pic30-elf32/unit-tests/lkr037/t2.s
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr038/expect.out
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr038/go
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr038/info.txt
@@ -10466,8 +10461,8 @@ ld/testsuite/ld-pic30-elf32/unit-tests/lkr041/run.cmd
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr041/t1.c
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr042/go
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr042/info.txt
-ld/testsuite/ld-pic30-elf32/unit-tests/lkr042/run.cmd
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr042/t1.c
+ld/testsuite/ld-pic30-elf32/unit-tests/lkr042/t2.c
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr043/go
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr043/info.txt
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr043/run.cmd
@@ -10562,6 +10557,7 @@ ld/testsuite/ld-pic30-elf32/unit-tests/lkr066/t1.s
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr067/expect.out
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr067/go
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr067/info.txt
+ld/testsuite/ld-pic30-elf32/unit-tests/lkr067/t.gld
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr067/t1.s
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr068/expect.out
 ld/testsuite/ld-pic30-elf32/unit-tests/lkr068/go
@@ -10664,10 +10660,6 @@ ld/testsuite/ld-pic30-elf32/unit-tests/misc14/go
 ld/testsuite/ld-pic30-elf32/unit-tests/misc14/info.txt
 ld/testsuite/ld-pic30-elf32/unit-tests/misc14/t1.s
 ld/testsuite/ld-pic30-elf32/unit-tests/misc14/t2.s
-ld/testsuite/ld-pic30-elf32/unit-tests/misc15/expect.out
-ld/testsuite/ld-pic30-elf32/unit-tests/misc15/go
-ld/testsuite/ld-pic30-elf32/unit-tests/misc15/info.txt
-ld/testsuite/ld-pic30-elf32/unit-tests/misc15/t1.c
 ld/testsuite/ld-pic30-elf32/unit-tests/misc16/expect.out
 ld/testsuite/ld-pic30-elf32/unit-tests/misc16/go
 ld/testsuite/ld-pic30-elf32/unit-tests/misc16/info.txt
@@ -13024,22 +13016,49 @@ symlink-tree
 texinfo/texinfo.tex
 ylwrap
 project-name: XC16 binutils
-repository:   /Users/cawilkie/.fossil_clone//acme.fsl
-local-root:   /Users/cawilkie/dev/builds/build_20150630/src/acme/
+repository:   /home/xc16/.fossil_clone//acme.fsl
+local-root:   /home/xc16/release-builds/build_20160219/src/acme/
+config-db:    /home/xc16/.fossil
 project-code: 315fcee78710d500082d072cc3951e332416f273
-checkout:     0458d4df646d55bc2220a968459746a86e653956 2015-06-29 14:56:20 UTC
-parent:       c8e29f72d9f4b1fc9dcbf5ec0b87f4310a8544b4 2015-06-17 17:13:35 UTC
-tags:         XC16_v1_25_release_branch
-comment:      Fix for xc16-842 (user: cawilkie)
-Autosync:  http://cawilkie@chn-vm-tinypm/repos.cgi/acme
-                Bytes      Cards  Artifacts     Deltas
-Sent:             130          1          0          0
-waiting for server...processed: 1%         processed: 2%         processed: 4%         processed: 5%         processed: 6%         processed: 8%         processed: 9%         processed: 11%         processed: 12%         processed: 13%         processed: 15%         processed: 16%         processed: 17%         processed: 19%         processed: 20%         processed: 22%         processed: 23%         processed: 24%         processed: 26%         processed: 27%         processed: 28%         processed: 30%         processed: 31%         processed: 33%         processed: 34%         processed: 35%         processed: 37%         processed: 38%         processed: 39%         processed: 41%         processed: 42%         processed: 44%         processed: 45%         processed: 46%         processed: 48%         processed: 49%         processed: 50%         processed: 52%         processed: 53%         processed: 55%         processed: 56%         processed: 57%         processed: 59%         processed: 60%         processed: 61%         processed: 63%         processed: 64%         processed: 66%         processed: 67%         processed: 68%         processed: 70%         processed: 71%         processed: 72%         processed: 74%         processed: 75%         processed: 77%         processed: 78%         processed: 79%         processed: 81%         processed: 82%         processed: 83%         processed: 85%         processed: 86%         processed: 88%         processed: 89%         processed: 90%         processed: 92%         processed: 93%         processed: 94%         processed: 96%         processed: 97%         processed: 99%         Received:        3344         73          0          0
-Sent:             459          8          0          0
-waiting for server...processed: 1%         processed: 3%         processed: 29%         processed: 39%         processed: 41%         processed: 43%         processed: 46%         processed: 48%         processed: 49%         processed: 50%         processed: 51%         processed: 52%         processed: 53%         processed: 54%         processed: 55%         processed: 56%         processed: 57%         processed: 58%         processed: 59%         processed: 60%         processed: 61%         processed: 62%         processed: 63%         processed: 64%         processed: 65%         processed: 66%         processed: 67%         processed: 68%         processed: 69%         processed: 70%         processed: 71%         processed: 72%         processed: 73%         processed: 74%         processed: 75%         processed: 76%         processed: 77%         processed: 78%         processed: 79%         processed: 80%         processed: 81%         processed: 82%         processed: 83%         processed: 84%         processed: 85%         processed: 86%         processed: 87%         processed: 88%         processed: 89%         processed: 90%         processed: 91%         processed: 92%         processed: 93%         processed: 94%         processed: 95%         processed: 96%         processed: 97%         processed: 98%         processed: 99%         Received:        6396         80          0          7
-Total network traffic: 888 bytes sent, 5614 bytes received
+checkout:     a5e2d8c54cc819212a6ebe3f48cc11aab5ebb9a2 2016-02-17 16:31:47 UTC
+parent:       64296336b3454e2d91e3ace79686fc133e84c537 2016-01-21 22:01:50 UTC
+tags:         trunk
+comment:      pack image sections add some address help as comments pad odd
+              instruction packets so that ldslv doesn't boak (user: cawilkie)
+check-ins:    3352
+Autosync:  http://cawilkie@fossil/repos.cgi/acme
+Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 2   Artifacts sent: 0  received: 0Round-trips: 2   Artifacts sent: 0  received: 5
+Pull done, sent: 838  received: 3807  ip: 10.10.70.121
+UPDATE bfd/archures.c
+UPDATE bfd/bfd-in2.h
+UPDATE bfd/coff-pic30.c
+UPDATE bfd/coffcode.h
+UPDATE bfd/cpu-pic30.c
+UPDATE bfd/elf.c
+UPDATE bfd/elf32-pic30.c
+UPDATE bfd/elflink.h
+UPDATE bfd/linker.c
+UPDATE bfd/pic30-allocate.c
+UPDATE bfd/pic30-options.c
+UPDATE bfd/pic30-options.h
+UPDATE bfd/pic30-reports.c
+UPDATE bfd/pic30-utils.h
+UPDATE bfd/section.c
+UPDATE binutils/bin2hex.c
+UPDATE binutils/objcopy.c
+UPDATE gas/config/tc-pic30.c
+UPDATE include/opcode/pic30.h
+UPDATE ld/emultempl/pic30_coff.em
+UPDATE ld/emultempl/pic30_elf32.em
+UPDATE ld/ldlang.c
+UPDATE opcodes/pic30-dis.c
+UPDATE opcodes/pic30-opc.c
+UPDATE opcodes/pic30-opc.h
 -------------------------------------------------------------------------------
-checkout:     0458d4df646d55bc2220a968459746a86e653956 2015-06-29 14:56:20 UTC
-tags:         XC16_v1_25_release_branch
-comment:      Fix for xc16-842 (user: cawilkie)
-changes:      None. Already up-to-date
+updated-to:   c6dd19bcf13ad8b01a4cda1a0ed1ff473b647a2b 2016-02-19 20:23:21 UTC
+tags:         XC16_v1_26_release_branch
+comment:      fix terminators that should be null; even if fill upper is
+              expressed fix dinit header address that should be null upper
+              byte, even if fill upper is expressed (user: cawilkie)
+changes:      25 files modified.
+ "fossil undo" is available to undo changes to the working checkout.
