@@ -9173,11 +9173,6 @@ ld/testsuite/ld-pic30-coff/unit-tests/lkr036/go
 ld/testsuite/ld-pic30-coff/unit-tests/lkr036/info.txt
 ld/testsuite/ld-pic30-coff/unit-tests/lkr036/t1.s
 ld/testsuite/ld-pic30-coff/unit-tests/lkr036/t2.s
-ld/testsuite/ld-pic30-coff/unit-tests/lkr037/expect.out
-ld/testsuite/ld-pic30-coff/unit-tests/lkr037/go
-ld/testsuite/ld-pic30-coff/unit-tests/lkr037/info.txt
-ld/testsuite/ld-pic30-coff/unit-tests/lkr037/t1.s
-ld/testsuite/ld-pic30-coff/unit-tests/lkr037/t2.s
 ld/testsuite/ld-pic30-coff/unit-tests/lkr038/expect.out
 ld/testsuite/ld-pic30-coff/unit-tests/lkr038/go
 ld/testsuite/ld-pic30-coff/unit-tests/lkr038/info.txt
@@ -9202,6 +9197,7 @@ ld/testsuite/ld-pic30-coff/unit-tests/lkr042/go
 ld/testsuite/ld-pic30-coff/unit-tests/lkr042/info.txt
 ld/testsuite/ld-pic30-coff/unit-tests/lkr042/run.cmd
 ld/testsuite/ld-pic30-coff/unit-tests/lkr042/t1.c
+ld/testsuite/ld-pic30-coff/unit-tests/lkr042/t2.c
 ld/testsuite/ld-pic30-coff/unit-tests/lkr043/go
 ld/testsuite/ld-pic30-coff/unit-tests/lkr043/info.txt
 ld/testsuite/ld-pic30-coff/unit-tests/lkr043/run.cmd
@@ -9306,6 +9302,7 @@ ld/testsuite/ld-pic30-coff/unit-tests/lkr066/t1.s
 ld/testsuite/ld-pic30-coff/unit-tests/lkr067/expect.out
 ld/testsuite/ld-pic30-coff/unit-tests/lkr067/go
 ld/testsuite/ld-pic30-coff/unit-tests/lkr067/info.txt
+ld/testsuite/ld-pic30-coff/unit-tests/lkr067/t.gld
 ld/testsuite/ld-pic30-coff/unit-tests/lkr067/t1.s
 ld/testsuite/ld-pic30-coff/unit-tests/lkr068/expect.out
 ld/testsuite/ld-pic30-coff/unit-tests/lkr068/go
@@ -9413,10 +9410,6 @@ ld/testsuite/ld-pic30-coff/unit-tests/misc14/go
 ld/testsuite/ld-pic30-coff/unit-tests/misc14/info.txt
 ld/testsuite/ld-pic30-coff/unit-tests/misc14/t1.s
 ld/testsuite/ld-pic30-coff/unit-tests/misc14/t2.s
-ld/testsuite/ld-pic30-coff/unit-tests/misc15/expect.out
-ld/testsuite/ld-pic30-coff/unit-tests/misc15/go
-ld/testsuite/ld-pic30-coff/unit-tests/misc15/info.txt
-ld/testsuite/ld-pic30-coff/unit-tests/misc15/t1.c
 ld/testsuite/ld-pic30-coff/unit-tests/misc16/expect.out
 ld/testsuite/ld-pic30-coff/unit-tests/misc16/go
 ld/testsuite/ld-pic30-coff/unit-tests/misc16/info.txt
@@ -13017,48 +13010,23 @@ texinfo/texinfo.tex
 ylwrap
 project-name: XC16 binutils
 repository:   /home/xc16/.fossil_clone//acme.fsl
-local-root:   /home/xc16/release-builds/build_20160219/src/acme/
+local-root:   /home/xc16/release-builds/build_20161122/src/acme/
 config-db:    /home/xc16/.fossil
 project-code: 315fcee78710d500082d072cc3951e332416f273
-checkout:     a5e2d8c54cc819212a6ebe3f48cc11aab5ebb9a2 2016-02-17 16:31:47 UTC
-parent:       64296336b3454e2d91e3ace79686fc133e84c537 2016-01-21 22:01:50 UTC
+checkout:     1c9687fc19548c9dc16bec2cd09fcb0cf41dd555 2016-11-03 22:18:50 UTC
+parent:       07574ec00e11a750f2a1e7d47e53d7778badc22e 2016-11-03 22:09:28 UTC
+merged-from:  02177ff1a71a5f0fc4f5bf0218240228c5d12a25 2016-09-19 16:59:50 UTC
+child:        23ad12f05a1446dbed15423544cb7963ff02d5bf 2016-11-04 15:26:29 UTC
 tags:         trunk
-comment:      pack image sections add some address help as comments pad odd
-              instruction packets so that ldslv doesn't boak (user: cawilkie)
-check-ins:    3352
-Autosync:  http://cawilkie@fossil/repos.cgi/acme
-Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 2   Artifacts sent: 0  received: 0Round-trips: 2   Artifacts sent: 0  received: 5
-Pull done, sent: 838  received: 3807  ip: 10.10.70.121
-UPDATE bfd/archures.c
-UPDATE bfd/bfd-in2.h
+comment:      Merge DEV_XC16_SSR_1638_branch (user: cawilkie)
+check-ins:    3456
+Autosync:  http://xc16@fossil/repos.cgi/acme
+Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 1   Artifacts sent: 0  received: 0
+Pull done, sent: 352  received: 2630  ip: 10.10.70.121
 UPDATE bfd/coff-pic30.c
-UPDATE bfd/coffcode.h
-UPDATE bfd/cpu-pic30.c
-UPDATE bfd/elf.c
-UPDATE bfd/elf32-pic30.c
-UPDATE bfd/elflink.h
-UPDATE bfd/linker.c
-UPDATE bfd/pic30-allocate.c
-UPDATE bfd/pic30-options.c
-UPDATE bfd/pic30-options.h
-UPDATE bfd/pic30-reports.c
-UPDATE bfd/pic30-utils.h
-UPDATE bfd/section.c
-UPDATE binutils/bin2hex.c
-UPDATE binutils/objcopy.c
-UPDATE gas/config/tc-pic30.c
-UPDATE include/opcode/pic30.h
-UPDATE ld/emultempl/pic30_coff.em
-UPDATE ld/emultempl/pic30_elf32.em
-UPDATE ld/ldlang.c
-UPDATE opcodes/pic30-dis.c
-UPDATE opcodes/pic30-opc.c
-UPDATE opcodes/pic30-opc.h
 -------------------------------------------------------------------------------
-updated-to:   c6dd19bcf13ad8b01a4cda1a0ed1ff473b647a2b 2016-02-19 20:23:21 UTC
-tags:         XC16_v1_26_release_branch
-comment:      fix terminators that should be null; even if fill upper is
-              expressed fix dinit header address that should be null upper
-              byte, even if fill upper is expressed (user: cawilkie)
-changes:      25 files modified.
+updated-to:   4ee97996288967541cb33fc03c36c05d33161ad3 2016-11-16 22:12:49 UTC
+tags:         XC16_v1_30_release_branch
+comment:      Fix for xc16-1009 (user: cawilkie)
+changes:      1 file modified.
  "fossil undo" is available to undo changes to the working checkout.
