@@ -13010,23 +13010,23 @@ texinfo/texinfo.tex
 ylwrap
 project-name: XC16 binutils
 repository:   /home/xc16/.fossil_clone//acme.fsl
-local-root:   /home/xc16/release-builds/build_20161122/src/acme/
+local-root:   /home/xc16/release-builds/build_20170210/src/acme/
 config-db:    /home/xc16/.fossil
 project-code: 315fcee78710d500082d072cc3951e332416f273
-checkout:     1c9687fc19548c9dc16bec2cd09fcb0cf41dd555 2016-11-03 22:18:50 UTC
-parent:       07574ec00e11a750f2a1e7d47e53d7778badc22e 2016-11-03 22:09:28 UTC
-merged-from:  02177ff1a71a5f0fc4f5bf0218240228c5d12a25 2016-09-19 16:59:50 UTC
-child:        23ad12f05a1446dbed15423544cb7963ff02d5bf 2016-11-04 15:26:29 UTC
+checkout:     9868199c1aea08c25f8ba4028a5ac24e1d1a6766 2017-01-24 15:14:34 UTC
+parent:       8bd87bab325e9849ad845e99faa3353416e5315a 2016-12-07 16:27:37 UTC
+merged-from:  3d3b155866f3dcdd9b2da80fe2415687a962d761 2017-01-12 23:05:37 UTC
+child:        a9d70d583bd4dd4c06331a212e1fcd704b1b3255 2017-01-25 17:25:29 UTC
+child:        931229f71ae216545df4efeab7529cf4ac6fb407 2017-01-25 16:15:31 UTC
 tags:         trunk
-comment:      Merge DEV_XC16_SSR_1638_branch (user: cawilkie)
-check-ins:    3456
+comment:      Merge from DEV_XC16_SSR_1644_branch not closing branch due to on
+              going errata work (user: cawilkie)
+check-ins:    3469
 Autosync:  http://xc16@fossil/repos.cgi/acme
 Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 1   Artifacts sent: 0  received: 0
-Pull done, sent: 352  received: 2630  ip: 10.10.70.121
-UPDATE bfd/coff-pic30.c
+Pull done, sent: 354  received: 937  ip: 10.10.70.121
 -------------------------------------------------------------------------------
-updated-to:   4ee97996288967541cb33fc03c36c05d33161ad3 2016-11-16 22:12:49 UTC
-tags:         XC16_v1_30_release_branch
-comment:      Fix for xc16-1009 (user: cawilkie)
-changes:      1 file modified.
- "fossil undo" is available to undo changes to the working checkout.
+checkout:     931229f71ae216545df4efeab7529cf4ac6fb407 2017-01-25 16:15:31 UTC
+tags:         XC16_v1_31_release_branch
+comment:      Create new branch named "XC16_v1_31_release_branch" (user: xc16)
+changes:      None. Already up-to-date

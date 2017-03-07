@@ -81781,29 +81781,23 @@ zlib/zutil.c
 zlib/zutil.h
 project-name: XC16 GCC
 repository:   /home/xc16/.fossil_clone//XC_GCC.fsl
-local-root:   /home/xc16/release-builds/build_20161122/src/XC_GCC/
+local-root:   /home/xc16/release-builds/build_20170210/src/XC_GCC/
 config-db:    /home/xc16/.fossil
 project-code: 8d44fcc88f560d1a54501ec642262650ef904476
 checkout:     9f263c741fb76abb137e8ab50ceddcfea5a0343e 2016-11-03 22:17:09 UTC
 parent:       48660a70bf5a24c96d0a230881f09e973a4a801f 2016-11-03 22:07:47 UTC
 merged-from:  a8e7c458a26cefca14dd876c961f1a4b389a6c81 2016-11-03 20:11:35 UTC
+child:        1b9ef075a781912ab64329cfa0b070b0530e4909 2017-01-25 17:29:12 UTC
+child:        ce1d8ac20520839e79aa3855183be8133a987f49 2017-01-25 16:15:28 UTC
 child:        0f3d62931faa3ad5ab8d321efeacd70361a89fd4 2016-11-04 15:26:16 UTC
 tags:         trunk
 comment:      Merge DEV_XC16_SSR_1638_branch (user: cawilkie)
-check-ins:    527
+check-ins:    540
 Autosync:  http://xc16@fossil/repos.cgi/XC_GCC
 Round-trips: 1   Artifacts sent: 0  received: 0Round-trips: 1   Artifacts sent: 0  received: 0
-Pull done, sent: 352  received: 936  ip: 10.10.70.121
-UPDATE gcc/gcc/config/pic30/pic30.c
-UPDATE gcc/gcc/config/pic30/pic30.h
-UPDATE gcc/gcc/config/pic30/pic30.md
-UPDATE gcc/gcc/tree-ssa-address.c
-UPDATE gcc/gcc/tree-ssa-loop-ivopts.c
-UPDATE gcc/gcc/varasm.c
+Pull done, sent: 352  received: 1820  ip: 10.10.70.121
 -------------------------------------------------------------------------------
-updated-to:   3ce74f9d77d80c639b2a4832faa01e008a101af8 2016-10-28 17:05:50 UTC
-tags:         XC16_v1_30_release_branch
-comment:      For testing, skip tamper check if XCLM_ALLOW_ANY is defined
-              (user: xc16)
-changes:      6 files modified.
- "fossil undo" is available to undo changes to the working checkout.
+checkout:     ce1d8ac20520839e79aa3855183be8133a987f49 2017-01-25 16:15:28 UTC
+tags:         XC16_v1_31_release_branch
+comment:      Create new branch named "XC16_v1_31_release_branch" (user: xc16)
+changes:      None. Already up-to-date
